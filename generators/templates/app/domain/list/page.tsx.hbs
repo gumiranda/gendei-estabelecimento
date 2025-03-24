@@ -1,0 +1,9 @@
+import { whitelabel } from "@/application/whitelabel";
+import { {{pascalCase name}}GridPage } from "@/slices/appointments/screens/{{camelCase name}}/list/grid";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: `${whitelabel.systemName} | {{pascalCase label}}s`,
+  description: `Página de listagem de {{camelCase label}}s do ${whitelabel.systemName}. Aqui você pode ver as {{camelCase label}}s em lista infinita.`,
+};
+export default {{pascalCase name}}GridPage;
